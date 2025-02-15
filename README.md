@@ -106,4 +106,15 @@ The negative sign indicates the 180 degree phase shift between the input and out
 - From the Transient analysis, At low frequencies, the phase shift remains close to 180°, confirming the inverting nature of the amplifier,At higher frequencies, the phase shift decreases due to the effects of the parasitic capacitances
 
 
+# CIRCUIT-02
 
+## 1)	Circuit Description
+   •	Circuit Components
+   - NMOS (180nm technology node)
+   - PMOS (180nm technology node)
+   - Voltage source (1.8V, 0.7V)
+   - AC Ground
+   - Wires 
+      
+## 4)	Circuit Schematic     
+      
