@@ -181,10 +181,15 @@ The negative sign indicates the 180 degree phase shift between the input and out
 - DC operating point as (1.660V, 55.5uA)
 
    #### 2. AC Analysis
-
-
+  
+![Image](https://github.com/user-attachments/assets/27d3d256-edd8-4500-b03e-3c6ebca9bb02)
 ##### Fig 6: AC Ananlysis Result
+- The results shows that the circuit is not stable due to the poles and points .
+- If we increase the value of W the value of ID is also increasing
+-  Higher The value of W/L ratio leads to a wider bandwidth due to high transconductance
+-  Lower thw Gain margin closer to the stability
+   
+#### 3. Tansient Ananlysis 
 
-- At Frequency = 204.527 kHz
-- Gain = -5.391 dB
-- Phase shift = 128.261°
+
+##### Fig 7: Transient Analysis Result
