@@ -47,4 +47,4 @@ VDS and ID provides the operating point of the MOSFET.
 
 ### Tabular column
 
-
+![Image](https://github.com/user-attachments/assets/dbcd8a5b-7033-43c8-b5f2-beccfa3f596a)
