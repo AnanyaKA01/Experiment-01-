@@ -191,5 +191,18 @@ The negative sign indicates the 180 degree phase shift between the input and out
    
 #### 3. Tansient Ananlysis 
 
-
+![Image](https://github.com/user-attachments/assets/5fd7a5ea-3365-4f8d-bda1-96bdd2a9b570)
 ##### Fig 7: Transient Analysis Result
+
+- The input waveform (Vin) is a sinusoidal signal centered at 0.7V
+- The output waveform (Vout) is also sinusoidal but inverted, confirming the inverting nature of the common source amplifier.
+- A common source amplifier typically provides a 180° phase shift between input (Vin) and output (Vout) at mid-frequency
+- This phase shift deviates from ideal 180° due to the influence of parasitic capacitances, load resistance, and MOSFET characteristics.
+- Vout= 1.660 for width of 878nm.
+
+  #### VTC Curve
+
+  
+
+
+
