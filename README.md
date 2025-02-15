@@ -202,7 +202,23 @@ The negative sign indicates the 180 degree phase shift between the input and out
 
   #### VTC Curve
 
-  
+ ![Image](https://github.com/user-attachments/assets/2a0c6595-99ba-485f-9c59-84e1279532fc) 
+##### Fig 15: vtc curve graph
+
+- Graph Analysis:
+- X-axis (Input Voltage, Vin): 0V to 1.8V
+- Y-axis (Output Voltage, Vout): 1.8V to nearly 0V
+- Threshold Voltage (Vth): The MOSFET starts switching at approximately 0.9V - 1.2V.
+- Saturation Region: Beyond Vin ≈ 1.2V, the output voltage drops significantly.
+- Cutoff Region: For Vin < 0.9V, the MOSFET is OFF, and Vout remains at 1.8V (Vdd).
+
+## Inference
+ - From the DC analysis, we determine the DC operating point of the MOSFET, which helps verify whether the transistor is functioning in the saturation region. This confirmation is crucial, as operation in saturation ensures that the MOSFET acts as an amplifier with the desired characteristics.
+ - From the AC Analysis
+
+   
+
+
 
 
 
