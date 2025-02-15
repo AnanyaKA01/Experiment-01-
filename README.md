@@ -171,7 +171,7 @@ The negative sign indicates the 180 degree phase shift between the input and out
 
 ## 8)	Results 
 #### 1. DC Analysis
-![Image](https://github.com/user-attachments/assets/de6849b1-cd6a-4ddb-a06e-adf932ec9963)
+
 ##### Fig 5: DC Analysis Result
 
 - ID = 55.5uA
