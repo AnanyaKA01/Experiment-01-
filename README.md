@@ -156,4 +156,25 @@ VDS and ID provides the operating point of the MOSFET.
 #### Transient analysis :
 Transient analysis examines how the amplifier responds to time varying signals, such as pulse inputs or sudden changes in voltage. The behaviour is influenced by the charging and discharging of capacitors including coupling capacitors and bypass capacitors.The response of the amplifier due to the sudden changes in the input is limited by its time constants which depends upon the capacitance and resistance in the circuit. Transient analysis is crucial in high speed applications where rise time, fall time, propagation delay determines the amplifier's suitability for fast signals.
 
+![Image](https://github.com/user-attachments/assets/de6849b1-cd6a-4ddb-a06e-adf932ec9963)
 ##### Fig 3: Transient Analysis Parameters 
+
+#### AC analysis:
+In AC analysis MOSFET treated as a linear small-signal amplifier, where the drain current is proportional to small variations in gate volatge
+iD=gmvgs
+where gm is transconductance. Therefore, The voltage gain of the amplifier is given by
+Av= -gm(RD||RL)
+The negative sign indicates the 180 degree phase shift between the input and output signals. The input impedance is primarily determined by the gate biasing resitors whereas output impedance is largely influenced by the resistor RD . At low frequency the gain is effected by coupling capacitors and bypass capacitors, while at high frequencies by paracitic capacitors.
+
+![Image](https://github.com/user-attachments/assets/f5d9c78f-45de-4b91-9eca-6d8c4d23b39b)
+#### Fig 4: AC Analysis Parameters
+
+## 8)	Results 
+#### 1. DC Analysis
+
+##### Fig 5: DC Analysis Result
+
+- ID = 55.5uA
+- width = 0.203um
+- Vout = 1.745V
+- DC operating point as (1.745V, 55.5uA)
