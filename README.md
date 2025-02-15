@@ -65,4 +65,10 @@ where gm is transconductance. Therefore, The voltage gain of the amplifier is gi
 Av= -gm(RD||RL)
 The negative sign indicates the 180 degree phase shift between the input and output signals. The input impedance is primarily determined by the gate biasing resitors whereas output impedance is largely influenced by the resistor RD . At low frequency the gain is effected by coupling capacitors and bypass capacitors, while at high frequencies by paracitic capacitors.
 
+![Image](https://github.com/user-attachments/assets/f5d9c78f-45de-4b91-9eca-6d8c4d23b39b)
+#### Fig 4: AC Analysis Parameters
+
+## 8)	Results 
+#### 1.	DC Analysis
+
 
