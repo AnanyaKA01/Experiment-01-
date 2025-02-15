@@ -15,4 +15,4 @@ The objective of this report  is to use LTspice to examine a Common Source (CS) 
 
 ## 4)	Circuit Schematic 
 
-
+![Image](https://github.com/user-attachments/assets/eab282a6-7dc4-491e-8798-bcd1d79c2521)
