@@ -69,6 +69,16 @@ The negative sign indicates the 180 degree phase shift between the input and out
 #### Fig 4: AC Analysis Parameters
 
 ## 8)	Results 
-#### 1.	DC Analysis
+#### 1. DC Analysis
 
+![Image](https://github.com/user-attachments/assets/8081cf6c-e742-46bf-b9c3-7e5f98817674)
+##### Fig 5: DC Analysis Result
 
+- ID= 55.5uA
+- width = 0.203um
+- Vout= 1.745V
+- DC operating point as (1.745V, 55.5uA)
+
+  #### 2. Transient Analysis
+
+  
