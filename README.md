@@ -90,3 +90,20 @@ The negative sign indicates the 180 degree phase shift between the input and out
   
 #### 3. Tansient Ananlysis 
 
+![Image](https://github.com/user-attachments/assets/24d8bf03-48cb-4eea-878f-98e55c54f8a9)
+##### Fig 7: Transient Analysis Result
+
+- A common source amplifier typically provides a 180° phase shift between input (Vin) and output (Vout) at mid-frequency.
+- From the ploted graph, the phase shift at 204.527 kHz (marked on the graph) is approximately 128.26°
+- This phase shift deviates from ideal 180° due to the influence of parasitic capacitances, load resistance, and MOSFET characteristics.
+- Vout= 1.745V for width of 0.203um
+
+  ## Inference
+ - From the DC analysis, we determine the DC operating point of the MOSFET, which helps verify whether the transistor is functioning in the saturation region. This confirmation is crucial, as operation in saturation ensures that the MOSFET acts as an amplifier with the desired characteristics. 
+
+- From the Ac analysis, The gain drops at high frequencies due to the bandwidth limitation,As frequency increases, the phase shift gradually approaches negative values, indicating a typical low-pass filter behavior of the common source amplifier, the common source amplifier operates as a voltage amplifier with a limited high-frequency response due to intrinsic capacitances.
+
+- From the Transient analysis, At low frequencies, the phase shift remains close to 180°, confirming the inverting nature of the amplifier,At higher frequencies, the phase shift decreases due to the effects of the parasitic capacitances
+
+
+
