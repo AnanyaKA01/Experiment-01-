@@ -16,7 +16,7 @@ The objective of this report  is to use LTspice to examine a Common Source (CS) 
 ## 4)	Circuit Schematic 
 
 ![Image](https://github.com/user-attachments/assets/ec8f8b75-d20b-43cb-8aa9-90088cc2317c)
-#### Fig 1: CS Amplifier with all the components
+##### Fig 1: CS Amplifier with all the components
 
 ## 5)	Procedure 
 1.	Build the common source amplifier circuit as the circuit diagram using LTspice.
@@ -48,3 +48,10 @@ VDS and ID provides the operating point of the MOSFET.
 ### Tabular column
 
 ![Image](https://github.com/user-attachments/assets/dbcd8a5b-7033-43c8-b5f2-beccfa3f596a)
+
+![Image](https://github.com/user-attachments/assets/8081cf6c-e742-46bf-b9c3-7e5f98817674)
+##### Fig 2 : output of DC Ananlysis and Circuit
+
+#### Transient analysis :
+Transient analysis examines how the amplifier responds to time varying signals, such as pulse inputs or sudden changes in voltage. The behaviour is influenced by the charging and discharging of capacitors including coupling capacitors and bypass capacitors.The response of the amplifier due to the sudden changes in the input is limited by its time constants which depends upon the capacitance and resistance in the circuit. Transient analysis is crucial in high speed applications where rise time, fall time, propagation delay determines the amplifier's suitability for fast signals.
+
