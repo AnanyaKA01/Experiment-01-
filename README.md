@@ -171,10 +171,20 @@ The negative sign indicates the 180 degree phase shift between the input and out
 
 ## 8)	Results 
 #### 1. DC Analysis
-
+![Image](https://github.com/user-attachments/assets/de6849b1-cd6a-4ddb-a06e-adf932ec9963)
 ##### Fig 5: DC Analysis Result
 
 - ID = 55.5uA
-- width = 0.203um
-- Vout = 1.745V
-- DC operating point as (1.745V, 55.5uA)
+- width(CMOSP) = 878nm
+- width(CMONP) = 878nm
+- Vout = 1.660V
+- DC operating point as (1.660V, 55.5uA)
+
+   #### 2. AC Analysis
+
+
+##### Fig 6: AC Ananlysis Result
+
+- At Frequency = 204.527 kHz
+- Gain = -5.391 dB
+- Phase shift = 128.261°
