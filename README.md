@@ -74,11 +74,19 @@ The negative sign indicates the 180 degree phase shift between the input and out
 ![Image](https://github.com/user-attachments/assets/8081cf6c-e742-46bf-b9c3-7e5f98817674)
 ##### Fig 5: DC Analysis Result
 
-- ID= 55.5uA
+- ID = 55.5uA
 - width = 0.203um
-- Vout= 1.745V
+- Vout = 1.745V
 - DC operating point as (1.745V, 55.5uA)
 
-  #### 2. Transient Analysis
+  #### 2. AC Analysis
 
+  ![Image](https://github.com/user-attachments/assets/eb0725db-8f27-4adb-bbad-87b8fc9cc726)
+##### Fig 6: AC Ananlysis Result
+
+- At Frequency = 204.527 kHz
+- Gain = -5.391 dB
+- Phase shift = 128.261°
   
+#### 3. Tansient Ananlysis 
+
