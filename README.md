@@ -140,8 +140,8 @@ AC analysis : In edit simulation option, change from transient to ac analysis. S
 - Therefore, I = 55.5uA
 - From loop equation : VDD = IDRD + Vout
 - where VDD= 1.8,  ID=55.5uA,  RD=1KHz
-- Therefore Vout= 1.745V
-- Hence Q point= (1.745V, 55.5uA)
+- Therefore Vout= 0.864V
+- Hence Q point= (0.864V, 55.5uA)
 
 ## 7)	Theory And Simulation Setup
 #### DC Analysis :
