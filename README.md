@@ -220,8 +220,14 @@ The circuit responds effectively to input variations, indicating stable operatio
 
 ## Comparison Between Circuit 01 and Circuit 02
    
+![Image](https://github.com/user-attachments/assets/35d8296f-efc7-404a-a21b-cb73974af596)
 
+## Observation 
 
-
+- Circuit 2 has a larger NMOS width to compsate for the active load configuration.
+- Circuit 2 has a positive gain meaning it is acting more like a buffer and a constant current source due to active load , circuit 1 in contrast has a negative gain as expected in a common source configuration.
+- Circuit 02 has a lower output voltage because the diode-co nnected PMOS introduc es a lower voltage drop compare d to a passive resistor.
+- The larger W/L ratio in Circuit 02 helps improve current drive and transcon ductance in the presence of the PMOS load.
+- difference in DC operating points is due to the voltage drop across the active load (PMOS diode) in Circuit 02, whereas Circuit 01 has a higher output voltage due to the resistor load.
 
 
