@@ -149,7 +149,8 @@ In DC analysis the goal is to establish the stable operationg point for the MOSF
 ID= 1/2Kn(VOV)2
 VDS and ID provides the operating point of the MOSFET.
 
-![Image](https://github.com/user-attachments/assets/b519ebb3-3746-479b-b5e5-5898bad96bf6)
+![Image](https://github.com/user-attachments/assets/98d77580-ff6d-47e9-975b-0e7ea2f6c112)
+
 ##### Fig 9 : output of DC Ananlysis and Circuit
 
 #### Transient analysis :
@@ -170,7 +171,8 @@ The negative sign indicates the 180 degree phase shift between the input and out
 
 ## 8)	Results 
 #### 1. DC Analysis
-![Image](https://github.com/user-attachments/assets/b519ebb3-3746-479b-b5e5-5898bad96bf6)
+
+![Image](https://github.com/user-attachments/assets/98d77580-ff6d-47e9-975b-0e7ea2f6c112)
 ##### Fig 12: DC Analysis Result
 
 - ID = 55.5uA
