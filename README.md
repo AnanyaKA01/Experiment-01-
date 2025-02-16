@@ -166,7 +166,7 @@ where gm is transconductance. Therefore, The voltage gain of the amplifier is gi
 Av= -gm(RD||RL)
 The negative sign indicates the 180 degree phase shift between the input and output signals. The input impedance is primarily determined by the gate biasing resitors whereas output impedance is largely influenced by the resistor RD . At low frequency the gain is effected by coupling capacitors and bypass capacitors, while at high frequencies by paracitic capacitors.
 
-![Image](https://github.com/user-attachments/assets/a191bb8f-3413-4fdd-ada9-cd5cad36d288)
+![Image](https://github.com/user-attachments/assets/5352346b-63c2-4fd6-bed8-ce41079212f7)
 #### Fig 4: AC Analysis Parameters
 
 ## 8)	Results 
@@ -175,10 +175,10 @@ The negative sign indicates the 180 degree phase shift between the input and out
 ##### Fig 5: DC Analysis Result
 
 - ID = 55.5uA
-- width(CMOSP) = 878nm
-- width(CMOSN) = 878nm
-- Vout = 1.660V
-- DC operating point as (1.660V, 55.5uA)
+- width(CMOSP) = 1107nm , L=180nm
+- width(CMOSN) = 1107nm , L=180nm
+- Vout = 0.864V
+- DC operating point as (0.864V, 55.5uA)
 
    #### 2. AC Analysis
   
@@ -188,6 +188,7 @@ The negative sign indicates the 180 degree phase shift between the input and out
 - If we increase the value of W the value of ID is also increasing
 -  Higher The value of W/L ratio leads to a wider bandwidth due to high transconductance
 -  Lower thw Gain margin closer to the stability
+-  The gain(5.5 dB) and phase shift (which is nearly 180deg) align with theoretical expectations.
    
 #### 3. Tansient Ananlysis 
 
@@ -215,10 +216,10 @@ The negative sign indicates the 180 degree phase shift between the input and out
 ## Inference
  - From the DC analysis, we determine the DC operating point of the MOSFET, which helps verify whether the transistor is functioning in the saturation region. This confirmation is crucial, as operation in saturation ensures that the MOSFET acts as an amplifier with the desired characteristics.
  - From the AC Analysis, As frequency increases, the gain begins to decrease due to the impact of MOSFET parasitic capacitances.The amplifier maintains a relatively constant gain in the low-frequency region, ensuring steady signal amplification within this range,The phase response gradually shifts with increasing frequency, approaching -180°, which is a characteristic of a common source amplifie.
+- From the transient analysis, The transient response graph confirms that the circuit transitions smoothly over time.
+The circuit responds effectively to input variations, indicating stable operation.
 
-- From the transient analysis, 
-
-
+## Comparison Between Circuit 01 and Circuit 02
    
 
 
