@@ -1,4 +1,4 @@
-# Experiment-01-
+# Experiment-01
 ## 1)	Title page
 LT spice Simulation of Common source Amplifier
 
@@ -85,7 +85,7 @@ The negative sign indicates the 180 degree phase shift between the input and out
 ##### Fig 6: AC Ananlysis Result
 
 - At Frequency = 204.527 kHz
-- Gain = -5.391 dB
+- Gain = -7.599 dB
 - Phase shift = 128.261°
   
 #### 3. Tansient Ananlysis 
@@ -176,7 +176,7 @@ The negative sign indicates the 180 degree phase shift between the input and out
 
 - ID = 55.5uA
 - width(CMOSP) = 878nm
-- width(CMONP) = 878nm
+- width(CMOSN) = 878nm
 - Vout = 1.660V
 - DC operating point as (1.660V, 55.5uA)
 
@@ -214,7 +214,10 @@ The negative sign indicates the 180 degree phase shift between the input and out
 
 ## Inference
  - From the DC analysis, we determine the DC operating point of the MOSFET, which helps verify whether the transistor is functioning in the saturation region. This confirmation is crucial, as operation in saturation ensures that the MOSFET acts as an amplifier with the desired characteristics.
- - From the AC Analysis
+ - From the AC Analysis, As frequency increases, the gain begins to decrease due to the impact of MOSFET parasitic capacitances.The amplifier maintains a relatively constant gain in the low-frequency region, ensuring steady signal amplification within this range,The phase response gradually shifts with increasing frequency, approaching -180°, which is a characteristic of a common source amplifie.
+
+- From the transient analysis, 
+
 
    
 
