@@ -171,7 +171,7 @@ The negative sign indicates the 180 degree phase shift between the input and out
 
 ## 8)	Results 
 #### 1. DC Analysis
-![Image](https://github.com/user-attachments/assets/4ab27e57-fcf8-4361-97e0-1d165dd5af7a)
+![Image](https://github.com/user-attachments/assets/b519ebb3-3746-479b-b5e5-5898bad96bf6)
 ##### Fig 5: DC Analysis Result
 
 - ID = 55.5uA
@@ -182,7 +182,7 @@ The negative sign indicates the 180 degree phase shift between the input and out
 
    #### 2. AC Analysis
   
-![Image](https://github.com/user-attachments/assets/27d3d256-edd8-4500-b03e-3c6ebca9bb02)
+![Image](https://github.com/user-attachments/assets/a191bb8f-3413-4fdd-ada9-cd5cad36d288)
 ##### Fig 6: AC Ananlysis Result
 - The results shows that the circuit is not stable due to the poles and points .
 - If we increase the value of W the value of ID is also increasing
@@ -191,7 +191,7 @@ The negative sign indicates the 180 degree phase shift between the input and out
    
 #### 3. Tansient Ananlysis 
 
-![Image](https://github.com/user-attachments/assets/5fd7a5ea-3365-4f8d-bda1-96bdd2a9b570)
+![Image](https://github.com/user-attachments/assets/78500041-f782-409f-8438-d06998c4f469)
 ##### Fig 7: Transient Analysis Result
 
 - The input waveform (Vin) is a sinusoidal signal centered at 0.7V
