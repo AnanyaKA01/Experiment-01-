@@ -156,7 +156,7 @@ VDS and ID provides the operating point of the MOSFET.
 #### Transient analysis :
 Transient analysis examines how the amplifier responds to time varying signals, such as pulse inputs or sudden changes in voltage. The behaviour is influenced by the charging and discharging of capacitors including coupling capacitors and bypass capacitors.The response of the amplifier due to the sudden changes in the input is limited by its time constants which depends upon the capacitance and resistance in the circuit. Transient analysis is crucial in high speed applications where rise time, fall time, propagation delay determines the amplifier's suitability for fast signals.
 
-![Image](https://github.com/user-attachments/assets/de6849b1-cd6a-4ddb-a06e-adf932ec9963)
+
 ##### Fig 3: Transient Analysis Parameters 
 
 #### AC analysis:
