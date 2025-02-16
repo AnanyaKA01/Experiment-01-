@@ -31,13 +31,13 @@ The objective of this report  is to use LTspice to examine a Common Source (CS) 
 10.	AC analysis : In edit simulation option, change from transient to ac analysis. Set type of sweep as decade, number of points per decade as 20, start and stop frequency as 0.1Hz and 1THz to get the expected ac waveform.
 
 ## 6)	Calculation
-power = 100uW
-We know that P=VI , where V=1.8V here
-Therefore, I = 55.5uA
-From loop equation : VDD = IDRD + Vout
-where VDD= 1.8,  ID=55.5uA,  RD=1KHz
-Therefore Vout= 1.745V
-Hence Q point= (1.745V, 55.5uA)
+- power = 100uW
+- We know that P=VI , where V=1.8V here
+- Therefore, I = 55.5uA
+- From loop equation : VDD = IDRD + Vout
+- where VDD= 1.8,  ID=55.5uA,  RD=1KHz
+- Therefore Vout= 1.745V
+- Hence Q point= (1.745V, 55.5uA)
 
 ## 7)	Theory And Simulation Setup
 #### DC Analysis :
