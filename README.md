@@ -118,7 +118,7 @@ The negative sign indicates the 180 degree phase shift between the input and out
       
 ## 4)	Circuit Schematic     
       
-![Image](https://github.com/user-attachments/assets/7ddf9bb3-750a-4fc9-98cc-76013eb6eff4)
+![Image](https://github.com/user-attachments/assets/6ebcd342-313a-4876-bb7c-1cee2390556f)
 ##### Fig8: Circuit with all the components
 
 ## 5)	Procedure 
