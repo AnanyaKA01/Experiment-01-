@@ -118,7 +118,7 @@ The negative sign indicates the 180 degree phase shift between the input and out
 ## 4)	Circuit Schematic     
       
 ![Image](https://github.com/user-attachments/assets/6ebcd342-313a-4876-bb7c-1cee2390556f)
-##### Fig8: Circuit with all the components
+##### Fig 8: Circuit with all the components
 
 ## 5)	Procedure 
 1.	Build the common source amplifier circuit as the circuit diagram using LTspice.
@@ -150,13 +150,13 @@ ID= 1/2Kn(VOV)2
 VDS and ID provides the operating point of the MOSFET.
 
 ![Image](https://github.com/user-attachments/assets/b519ebb3-3746-479b-b5e5-5898bad96bf6)
-##### Fig 2 : output of DC Ananlysis and Circuit
+##### Fig 9 : output of DC Ananlysis and Circuit
 
 #### Transient analysis :
 Transient analysis examines how the amplifier responds to time varying signals, such as pulse inputs or sudden changes in voltage. The behaviour is influenced by the charging and discharging of capacitors including coupling capacitors and bypass capacitors.The response of the amplifier due to the sudden changes in the input is limited by its time constants which depends upon the capacitance and resistance in the circuit. Transient analysis is crucial in high speed applications where rise time, fall time, propagation delay determines the amplifier's suitability for fast signals.
 
 ![Image](https://github.com/user-attachments/assets/c962a1dc-e3ae-4c30-a560-f90690fa08b7)
-##### Fig 3: Transient Analysis Parameters 
+##### Fig 10 : Transient Analysis Parameters 
 
 #### AC analysis:
 In AC analysis MOSFET treated as a linear small-signal amplifier, where the drain current is proportional to small variations in gate volatge
@@ -166,12 +166,12 @@ Av= -gm(RD||RL)
 The negative sign indicates the 180 degree phase shift between the input and output signals. The input impedance is primarily determined by the gate biasing resitors whereas output impedance is largely influenced by the resistor RD . At low frequency the gain is effected by coupling capacitors and bypass capacitors, while at high frequencies by paracitic capacitors.
 
 ![Image](https://github.com/user-attachments/assets/5352346b-63c2-4fd6-bed8-ce41079212f7)
-#### Fig 4: AC Analysis Parameters
+#### Fig 11 : AC Analysis Parameters
 
 ## 8)	Results 
 #### 1. DC Analysis
 ![Image](https://github.com/user-attachments/assets/b519ebb3-3746-479b-b5e5-5898bad96bf6)
-##### Fig 5: DC Analysis Result
+##### Fig 12: DC Analysis Result
 
 - ID = 55.5uA
 - width(CMOSP) = 1107nm , L=180nm
@@ -182,7 +182,7 @@ The negative sign indicates the 180 degree phase shift between the input and out
    #### 2. AC Analysis
   
 ![Image](https://github.com/user-attachments/assets/a191bb8f-3413-4fdd-ada9-cd5cad36d288)
-##### Fig 6: AC Ananlysis Result
+##### Fig 13 : AC Ananlysis Result
 - The results shows that the circuit is not stable due to the poles and points .
 - If we increase the value of W the value of ID is also increasing
 -  Higher The value of W/L ratio leads to a wider bandwidth due to high transconductance
@@ -192,7 +192,7 @@ The negative sign indicates the 180 degree phase shift between the input and out
 #### 3. Tansient Ananlysis 
 
 ![Image](https://github.com/user-attachments/assets/78500041-f782-409f-8438-d06998c4f469)
-##### Fig 7: Transient Analysis Result
+##### Fig 14 : Transient Analysis Result
 
 - The input waveform (Vin) is a sinusoidal signal centered at 0.7V
 - The output waveform (Vout) is also sinusoidal but inverted, confirming the inverting nature of the common source amplifier.
@@ -221,6 +221,7 @@ The circuit responds effectively to input variations, indicating stable operatio
 ## Comparison Between Circuit 01 and Circuit 02
    
 ![Image](https://github.com/user-attachments/assets/35d8296f-efc7-404a-a21b-cb73974af596)
+##### Fig 16: comparison Table
 
 ## Observation 
 
