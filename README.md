@@ -222,7 +222,7 @@ The circuit responds effectively to input variations, indicating stable operatio
 
 ## Comparison Between Circuit 01 and Circuit 02
    
-![Image](https://github.com/user-attachments/assets/35d8296f-efc7-404a-a21b-cb73974af596)
+![Image](https://github.com/user-attachments/assets/934ce300-79ea-45ad-8328-4f333ee42972)
 ##### Fig 16: comparison Table
 
 ## Observation 
