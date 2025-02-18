@@ -84,7 +84,7 @@ The negative sign indicates the 180 degree phase shift between the input and out
 ##### Fig 6: AC Ananlysis Result
 
 - At Frequency = 204.527 kHz
-- Gain = -7.599 dB
+- Gain = 2 dB
 - Phase shift = 128.261°
   
 #### 3. Tansient Ananlysis 
