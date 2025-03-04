@@ -45,3 +45,20 @@ The transient analysis explain the circuit response at a particular instant of t
 In this experiment we can see a complete phase shift of 180 degree output to the input signal.
 As with respect to context of voltage gain, as the volatge gain is more leads to the smaller the bandwidth size.
 At the particular time output wave changes with respect input in the amplitude.
+![Image](https://github.com/user-attachments/assets/33280dc6-ab1f-4715-ada1-52216e2da62d)
+#####Fig 3: Output of Transient analysis
+Voltage Gain of this circuit is given by= Vout-Vin
+Av=1.77-1.63/1.69-1.600=1.5
+Therefore Higher the Higher resistor value reduces gain but increases bandwidth and more the transient response.
+###AC Analysis:
+Frequency response is determining quantity of bandwidth and stability of a MOSFET. This is divide into three regions;
+
+1.Low frequency
+
+2.Mid-band Frequency
+
+3.High Frequency
+In this experiment we can observe that there is no low frequency region because of there is no bypass or coupling capacitor in the circuit.
+We can observe that mid band region upper value is nearear to the 3dB value which can used as
+parameter to check bandwidth of amplifier to maintain its gain.
+
