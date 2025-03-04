@@ -38,3 +38,10 @@ connecting to the common source terminal.
 To do circit analysis first we need to check that the Both the MOSFET should be in the Saturation Region 
 which should satisfy this.
 VDS > VGS - Vth
+![Image](https://github.com/user-attachments/assets/5fd9eaae-c8b2-4cf1-acb3-d1288e8e55c8)
+#####Fig 2: Output of Dc Analysis
+Transient Analysis:
+The transient analysis explain the circuit response at a particular instant of time when a time-varying signal is applied at the inputs.
+In this experiment we can see a complete phase shift of 180 degree output to the input signal.
+As with respect to context of voltage gain, as the volatge gain is more leads to the smaller the bandwidth size.
+At the particular time output wave changes with respect input in the amplitude.
