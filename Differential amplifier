@@ -69,4 +69,7 @@ Gain =20log(Av) =20log(1.5) =3.5dB
 Same as the ciruit in the resistor circuit we need to replace resistor by current source .
 We have two MOSFET connected to same voltage input forming differential pair.And current source is connected to the Drain terminal of MOSFET.
 Source terminal is connected to the current source and another terminal is connected to ground.
-
+![Image](https://github.com/user-attachments/assets/55eb1681-5ef1-450a-9c69-d401e7bf3a3f)
+#####Fig 5:Circuit diagram with current source
+###DC Analysis:
+We need set voltage of Vicm to maintain the desired value of the current and voltage at source point.As a result opertaing point will be given as.
