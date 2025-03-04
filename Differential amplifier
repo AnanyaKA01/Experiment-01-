@@ -80,3 +80,10 @@ in intial stage of the experiment.
 ###Transient Analysis:
 The volatge gain of the ciruits inceases because of the current source drop across it is less compared to the 
 Rs resistor drop. So the Voltage gain of circuit is more compared to the circuit 1
+![Image](https://github.com/user-attachments/assets/5b2a550a-018c-47d4-9b90-bb6c079bdff4)
+#####Fig 7:Output od transient analysis.
+Voltage gain= vout/vin
+
+          =(1.7056)/(1.69-1.60)
+          =18.95
+###AC Analysis:
