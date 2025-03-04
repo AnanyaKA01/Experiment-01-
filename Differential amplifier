@@ -61,4 +61,12 @@ Frequency response is determining quantity of bandwidth and stability of a MOSFE
 In this experiment we can observe that there is no low frequency region because of there is no bypass or coupling capacitor in the circuit.
 We can observe that mid band region upper value is nearear to the 3dB value which can used as
 parameter to check bandwidth of amplifier to maintain its gain.
+![Image](https://github.com/user-attachments/assets/da279294-984e-427a-84b9-7ed640f96eae)
+#####Fig 4: Output of Ac Ananlysis
+Gain =20log(Av) =20log(1.5) =3.5dB
+
+###2.Circuit 2 (Common Source terminal is connected to current source):
+Same as the ciruit in the resistor circuit we need to replace resistor by current source .
+We have two MOSFET connected to same voltage input forming differential pair.And current source is connected to the Drain terminal of MOSFET.
+Source terminal is connected to the current source and another terminal is connected to ground.
 
