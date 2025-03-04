@@ -97,3 +97,12 @@ so that voltage gain will be maintained.In this ciruit MMOsfet is connected to d
 Now replace the current source with a Mosfet : Given vp=054v and wkt vt=0.36v we got the gate voltage of the new mosfet as 0.866v
 ![Image](https://github.com/user-attachments/assets/48fc0ecc-2e1d-40b4-8823-921cf3790929)
 ###DC Analysis:
+![Image](https://github.com/user-attachments/assets/2695bc6d-8040-4cd7-b799-36e7ae531a80)
+####Fig 9:output of Dc Ananlysis
+By identifying the value of VB of MOSFET M3 we need check the current flow through the MOSFET and It should be in saturation region.
+
+VB value (Gate terminal of MOSFET M3)=0.86v
+The value of (W/L) in MOSFET 1&2 =180n/6.2u
+The value of (W/L) in MOSFET 3  =180/19.5u
+
+###Transient Anlysis:
