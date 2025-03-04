@@ -4,3 +4,30 @@ It consists of two transistors, M1 and M2, whose sources are connected together.
 the currents through M1 and M2 will vary due to the gate voltages applied. However, if the gate voltages are equal, the currents through M1 and M2 will be the same
 (Im1 = Im2). This configuration is referred to as a "Common-Mode Input Voltage Differential Amplifier." Regardless of the load resistor value,
 it is crucial that the MOSFETs M1 and M2 do not enter the Triode region. It must be ensured that both MOSFETs remain in the Saturation Region.
+
+![Image](https://github.com/user-attachments/assets/83747046-5ec2-4568-b42a-1288e7ed3cdc)
+#####Fig 1 : Differential amplifier image
+
+This Experiement is done in 3 stages.Where common source terminal is connected with
+
+1.Resistor
+
+2.Current source
+
+3.MOSFET
+
+For all this circuit we need find out the AC analysis ,Transient analysis And Frequency Response.
+##### The given question specification is as follows
+P=2.5mA ,VDD=3.3V ,Vin=1.65V ,Vocm=1.7V ,Vp=0.5V
+Iss=Id1=Id2=2.5/3.3=0.75mA
+RD=VDD-Vocm/Iss= 3.3-1.7/0.37=4.32KΩ
+Rss=Vp/Iss=0.5/0.75=666.6Ω
+By tis value circuit is been built with respective to the values derived.
+(Note:This value may change while getting the desired values in the saturation wise or some constant terms needs to set
+###1.Circuit 1 (Common Source terminal is connected to resistor):
+
+In this circuit we have two MOSFET connected to same voltage input forming differential pair.
+And Load Resistor is coonected to the Drain terminal of MOSFET. Source terminal is connected resistor and another 
+terminal is connected to ground this is called source degenration resistor.
+CIRCUIT:
+
