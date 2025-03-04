@@ -84,7 +84,7 @@ Rs resistor drop. So the Voltage gain of circuit is more compared to the circuit
 #####Fig 7:Output od transient analysis.
 Voltage gain= vout/vin
 
-          =(1.7056)/(1.69-1.60)
+          =(1.7056)/(1.62-1.50)
           =18.95
 ###AC Analysis:
 ![Image](https://github.com/user-attachments/assets/4d01733d-d2e6-4d73-bb8d-8d1da2fe6c88)
@@ -106,3 +106,20 @@ The value of (W/L) in MOSFET 1&2 =180n/6.2u
 The value of (W/L) in MOSFET 3  =180/19.5u
 
 ###Transient Anlysis:
+![Image](https://github.com/user-attachments/assets/7d5e2f17-cb81-41de-a043-883405140f38)
+#####Fig 10:Output of transient Ananlysis
+Voltage gain(Av) = vout/vin =1.76-1.65/1.69-1.60=1.222
+Av=1.721
+###INFERENCE:
+In this experiment, we seen the working principles of a differential amplifier and its types and configuration.
+
+There are three types of configurations were implemented: resistor , current source , and an NMOS . All the implements work on different ways that results into the change in Voltage gain and stabillity of a mosfet.
+-Resistor connection results in low CMRR and lower gain voltage, but offers high bandwidth and provides negative feedback.
+-Current source connection improves CMRR and gain voltage, but slightly reduces bandwidth compared to a resistor.
+-Resistor allows more common-mode signals to pass through, leading to lower rejection of noise.
+-Current source offers better control of current, improving gain and common-mode rejection.
+1.Need more Band width-Use Resistor configuration
+
+2.Need more Gain-Use CMOSN Configuration
+
+3.Need precise CMRR-Use current or CMOSN configuration
