@@ -94,4 +94,6 @@ Gain in dB=20log(Av)
 ###3. Circuit 3-(Connecting MOSFET to source terminal)
 Now we are replacing the current source to the mosfet(M3) where we need to keep current Id3 as our desired value And to keep the mosfet(M1,M2,M3) in saturation region
 so that voltage gain will be maintained.In this ciruit MMOsfet is connected to drain of it to source terminal and to other ground.
-
+Now replace the current source with a Mosfet : Given vp=054v and wkt vt=0.36v we got the gate voltage of the new mosfet as 0.866v
+![Image](https://github.com/user-attachments/assets/48fc0ecc-2e1d-40b4-8823-921cf3790929)
+###DC Analysis:
