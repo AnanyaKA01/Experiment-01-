@@ -114,7 +114,8 @@ Voltage gain(Av) = vout/vin =1.76-1.65/1.69-1.60=1.222
 Av=1.721
 Av in dB = 20log(1.721)=4.62
 ### Ac Analysis
-
+![Image](https://github.com/user-attachments/assets/f0db202e-6e7d-427d-8bc5-83f8f6909d3e)
+#### Fig 11: Output of Ac Analysis
 ### 4.Circuit-4
 Here we are replacing Rd with diode connected PMOS which acts as resistor .
 ### DC Analysis
