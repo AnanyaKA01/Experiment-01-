@@ -84,8 +84,8 @@ Rs resistor drop. So the Voltage gain of circuit is more compared to the circuit
 ##### Fig 7:Output od transient analysis.
 Voltage gain= vout/vin
 
-          =(1.52-1.836)/(1.69-1.60)=3.511
-          =3.511
+          =(1.52-1.836)/(1.69-1.60)
+  Av gain =3.511
 ### AC Analysis:
 ![Image](https://github.com/user-attachments/assets/5a157659-7d09-4494-932f-7e67d4bf2df4)
 Gain in dB=20log(Av)
