@@ -185,4 +185,5 @@ Summary of Reasons:
 - NMOS Current Source: Acts as an active high-impedance source, leading to the best performance in terms of differential gain, output swing, and common-mode 
   rejection, thanks to better biasing and isolation from interference
 
-
+#### Comparision table
+![Image](https://github.com/user-attachments/assets/9ac01fec-841e-4285-a07e-23a6f93355fc)
