@@ -129,14 +129,60 @@ Av in dB= 20log(0.6)=  4.436
 ![Image](https://github.com/user-attachments/assets/544eb5d6-47a1-480d-8e4a-d1237ea02bce)
 ##### Fig 13: output of AC Ananlysis
 ### INFERENCE:
-- In this experiment, we seen the working principles of a differential amplifier and its types and configuration.
-- There are three types of configurations were implemented: resistor , current source , and an NMOS . All the implements work on different ways that results into the change in Voltage gain and stabillity of a mosfet.
-- Resistor connection results in low CMRR and lower gain voltage, but offers high bandwidth and provides negative feedback.
-- Current source connection improves CMRR and gain voltage, but slightly reduces bandwidth compared to a resistor.
-- Resistor allows more common-mode signals to pass through, leading to lower rejection of noise.
-- Current source offers better control of current, improving gain and common-mode rejection.
-1.Need more Band width-Use Resistor configuration
+#### With Resistor (Rss) as Tail Current Source:
 
-2.Need more Gain-Use CMOSN Configuration
+Moderate Differential Gain: The differential gain is limited by the resistor (Rss) because the tail current is fixed and affected by the resistance value. A resistor in the tail limits the current that flows through the differential pair, reducing the overall amplification.
 
-3.Need precise CMRR-Use current or CMOSN configuration
+Reason: The resistor in the tail does not actively control the current, so its value directly impacts the current flowing through the differential pair, limiting the overall gain.
+
+Reduced Output Voltage Swing:
+The output swing is constrained due to the voltage drop across the tail resistor (Rss). As the output voltage approaches the supply voltage, the current through the resistor drops, reducing the available headroom for the output signal.
+
+Reason: The voltage drop across Rss eats up a significant portion of the available headroom, which limits how far the output can swing before reaching supply limits.
+
+Low Common-Mode Rejection Ratio (CMRR): The CMRR is low because the tail resistor provides a low impedance, which allows common-mode signals to affect both sides of the differential pair in a similar manner.
+
+Reason: The low impedance of the resistor doesn’t sufficiently isolate the differential pair from common-mode signals. Therefore, both the positive and negative inputs are more likely to be affected by common-mode interference, reducing the CMRR.
+
+#### With Current Source (Iss) as Tail Current Source:
+
+Higher Differential Gain:
+The ideal current source provides a constant tail current, improving differential gain by maintaining a steady current that flows through the differential pair, resulting in greater amplification.
+
+Reason: The constant tail current ensures that the differential pair operates within its optimal region. This enables the circuit to amplify signals more efficiently, resulting in higher gain.
+
+Improved Output Voltage Swing:
+An ideal current source increases the available headroom for the output swing by maintaining a constant current, regardless of fluctuations in the load or voltage at the output.
+
+Reason: The ideal current source doesn’t experience voltage drops like the resistor does. Thus, more of the supply voltage is available for the output swing, allowing the signal to swing more freely.
+
+Higher CMRR:
+The ideal current source has high impedance, which helps isolate the differential pair from common-mode signals, improving the CMRR.
+
+Reason: The high impedance of the ideal current source ensures that the tail current remains unaffected by fluctuations in the power supply or common-mode signals. This results in better rejection of common-mode interference, leading to a higher CMRR.
+
+#### With NMOS Current Source as Tail Current Source:
+
+Highest Differential Gain:
+The NMOS current source provides an active current source with high impedance. This setup allows the differential pair to operate at its maximum potential, resulting in the highest differential gain.
+
+Reason: The high impedance of the NMOS current source minimizes current variations, ensuring that the differential pair is consistently biased for maximum amplification. The active current source optimizes the current flow, leading to the highest possible differential gain.
+
+Best Output Voltage Swing:
+The NMOS current source minimizes the voltage drop in the tail, which allows the output swing to be the widest. This minimizes voltage loss, keeping more of the supply voltage available for the output.
+
+Reason: Because the NMOS current source is an active device with high impedance, it doesn't drop as much voltage across itself as a resistor would. This leaves more room for the output signal to swing before hitting supply limits.
+
+Maximum CMRR:
+The NMOS current source provides the highest CMRR because it offers superior isolation from supply variations and common-mode signals.
+
+Reason: The NMOS current source, being an active component with high impedance, better isolates the differential pair from power supply fluctuations and common-mode interference. This isolation leads to the best common-mode rejection performance, ensuring that the circuit rejects unwanted signals more effectively.
+
+Summary of Reasons:
+
+- Resistor (Rss): Limits current flow, reduces output swing, and provides low impedance, making it less effective at rejecting common-mode signals.
+- Ideal Current Source: Provides a constant current, improving gain, output swing, and CMRR due to its high impedance.
+- NMOS Current Source: Acts as an active high-impedance source, leading to the best performance in terms of differential gain, output swing, and common-mode 
+  rejection, thanks to better biasing and isolation from interference
+
+
