@@ -112,22 +112,24 @@ The value of (W/L) in MOSFET 3  =180/19.5u
 ##### Fig 10:Output of transient Ananlysis
 Voltage gain(Av) = vout/vin =1.76-1.65/1.69-1.60=1.222
 Av=1.721
+Av in dB = 20log(1.721)=4.62
+### Ac Analysis
 
 ### 4.Circuit-4
 Here we are replacing Rd with diode connected PMOS which acts as resistor .
 ### DC Analysis
 ![Image](https://github.com/user-attachments/assets/abfebdce-7e48-40ba-8458-c93cf28b81c2)
-##### Fig 11:Output of DC Analysis
+##### Fig 12:Output of DC Analysis
 
 ### Transient Analysis
 ![Image](https://github.com/user-attachments/assets/87e15296-2f68-4bdd-aebd-e15bd5aba346)
-##### Fig 12: output od Tansient Ananlysis
+##### Fig 13: output od Tansient Ananlysis
 Av=Vout/Vin = (1.65-1.71)/(1.69-1.60)
             = 0.6
 Av in dB= 20log(0.6)=  4.436
 ### AC Analysis
 ![Image](https://github.com/user-attachments/assets/544eb5d6-47a1-480d-8e4a-d1237ea02bce)
-##### Fig 13: output of AC Ananlysis
+##### Fig 14: output of AC Ananlysis
 ### INFERENCE:
 #### With Resistor (Rss) as Tail Current Source:
 
