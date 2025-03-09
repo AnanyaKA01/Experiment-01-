@@ -19,10 +19,10 @@ This Experiement is done in 3 stages.Where common source terminal is connected w
 For all this circuit we need find out the AC analysis ,Transient analysis And Frequency Response.
 ##### The given question specification is as follows
 P=2.5mA ,VDD=3.3V ,Vin=1.65V ,Vocm=1.7V ,Vp=0.5V
-Iss=Id1=Id2=2.5/3.3=0.75mA
-RD=VDD-Vocm/Iss= 3.3-1.7/0.37=4.32KΩ
-Rss=Vp/Iss=0.5/0.75=666.6Ω
-By tis value circuit is been built with respective to the values derived.
+--Iss=Id1=Id2=2.5/3.3=0.75mA
+-RD=VDD-Vocm/Iss= 3.3-1.7/0.37=4.32KΩ
+-Rss=Vp/Iss=0.5/0.75=666.6Ω
+-By tis value circuit is been built with respective to the values derived.
 (Note:This value may change while getting the desired values in the saturation wise or some constant terms needs to set
 ###1.Circuit 1 (Common Source terminal is connected to resistor):
 
