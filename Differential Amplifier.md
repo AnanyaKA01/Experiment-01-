@@ -80,17 +80,17 @@ in intial stage of the experiment.
 ### Transient Analysis:
 The volatge gain of the ciruits inceases because of the current source drop across it is less compared to the 
 Rs resistor drop. So the Voltage gain of circuit is more compared to the circuit 1
-![Image](https://github.com/user-attachments/assets/5b2a550a-018c-47d4-9b90-bb6c079bdff4)
+![Image](https://github.com/user-attachments/assets/8e7bbeea-d792-41a6-8156-32f8d604099e)
 ##### Fig 7:Output od transient analysis.
 Voltage gain= vout/vin
 
-          =(1.7056)/(1.62-1.50)
-          =18.95
+          =(1.52-1.836)/(1.69-1.60)=3.511
+          =3.511
 ### AC Analysis:
 ![Image](https://github.com/user-attachments/assets/4d01733d-d2e6-4d73-bb8d-8d1da2fe6c88)
 Gain in dB=20log(Av)
-=20log(18.95)
-=25.55
+=20log(3.511)
+=10.88
 ### 3. Circuit 3-(Connecting MOSFET to source terminal)
 Now we are replacing the current source to the mosfet(M3) where we need to keep current Id3 as our desired value And to keep the mosfet(M1,M2,M3) in saturation region
 so that voltage gain will be maintained.In this ciruit MMOsfet is connected to drain of it to source terminal and to other ground.
