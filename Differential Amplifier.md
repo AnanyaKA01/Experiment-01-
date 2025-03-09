@@ -73,7 +73,7 @@ Source terminal is connected to the current source and another terminal is conne
 ##### Fig 5:Circuit diagram with current source
 ### DC Analysis:
 We need set voltage of Vicm to maintain the desired value of the current and voltage at source point.As a result opertaing point will be given as.
-![Image](https://github.com/user-attachments/assets/e3c7427e-0e84-4e5c-b7bc-20c216176c97)
+![Image](https://github.com/user-attachments/assets/a72b96a8-d072-45a4-9344-38d884e0656f)
 ##### Fig 6: output od Dc Analysis
 In the operating values we got the current flowing through the common source terminal is approximately what we had derived
 in intial stage of the experiment.
