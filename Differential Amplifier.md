@@ -121,20 +121,20 @@ Here we are replacing Rd with diode connected PMOS which acts as resistor .
 
 ### Transient Analysis
 ![Image](https://github.com/user-attachments/assets/87e15296-2f68-4bdd-aebd-e15bd5aba346)
-##### Fig 12: output od Tansient ananlysis
+##### Fig 12: output od Tansient Ananlysis
 Av=Vout/Vin = (1.65-1.71)/(1.69-1.60)
             = 0.6
 Av in dB= 20log(0.6)=  4.436
 ### AC Analysis
-
+![Image](https://github.com/user-attachments/assets/544eb5d6-47a1-480d-8e4a-d1237ea02bce)
+##### Fig 13: output of AC Ananlysis
 ### INFERENCE:
-In this experiment, we seen the working principles of a differential amplifier and its types and configuration.
-
-There are three types of configurations were implemented: resistor , current source , and an NMOS . All the implements work on different ways that results into the change in Voltage gain and stabillity of a mosfet.
--Resistor connection results in low CMRR and lower gain voltage, but offers high bandwidth and provides negative feedback.
--Current source connection improves CMRR and gain voltage, but slightly reduces bandwidth compared to a resistor.
--Resistor allows more common-mode signals to pass through, leading to lower rejection of noise.
--Current source offers better control of current, improving gain and common-mode rejection.
+- In this experiment, we seen the working principles of a differential amplifier and its types and configuration.
+- There are three types of configurations were implemented: resistor , current source , and an NMOS . All the implements work on different ways that results into the change in Voltage gain and stabillity of a mosfet.
+- Resistor connection results in low CMRR and lower gain voltage, but offers high bandwidth and provides negative feedback.
+- Current source connection improves CMRR and gain voltage, but slightly reduces bandwidth compared to a resistor.
+- Resistor allows more common-mode signals to pass through, leading to lower rejection of noise.
+- Current source offers better control of current, improving gain and common-mode rejection.
 1.Need more Band width-Use Resistor configuration
 
 2.Need more Gain-Use CMOSN Configuration
