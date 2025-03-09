@@ -87,14 +87,16 @@ Voltage gain= vout/vin
           =(1.52-1.836)/(1.69-1.60)=3.511
           =3.511
 ### AC Analysis:
-![Image](https://github.com/user-attachments/assets/4d01733d-d2e6-4d73-bb8d-8d1da2fe6c88)
+![Image](https://github.com/user-attachments/assets/5a157659-7d09-4494-932f-7e67d4bf2df4)
 Gain in dB=20log(Av)
 =20log(3.511)
 =10.88
 ### 3. Circuit 3-(Connecting MOSFET to source terminal)
 Now we are replacing the current source to the mosfet(M3) where we need to keep current Id3 as our desired value And to keep the mosfet(M1,M2,M3) in saturation region
 so that voltage gain will be maintained.In this ciruit MMOsfet is connected to drain of it to source terminal and to other ground.
-Now replace the current source with a Mosfet : Given vp=054v and wkt vt=0.36v we got the gate voltage of the new mosfet as 0.866v
+Now replace the current source with a Mosfet :
+- Given vp=054v and wkt vt=0.36v
+-  we got the gate voltage of the new mosfet as 0.866v
 ![Image](https://github.com/user-attachments/assets/48fc0ecc-2e1d-40b4-8823-921cf3790929)
 ###DC Analysis:
 ![Image](https://github.com/user-attachments/assets/2695bc6d-8040-4cd7-b799-36e7ae531a80)
