@@ -120,6 +120,12 @@ Here we are replacing Rd with diode connected PMOS which acts as resistor .
 ##### Fig 11:Output of DC Analysis
 
 ### Transient Analysis
+![Image](https://github.com/user-attachments/assets/87e15296-2f68-4bdd-aebd-e15bd5aba346)
+##### Fig 12: output od Tansient ananlysis
+Av=Vout/Vin = (1.65-1.71)/(1.69-1.60)
+            = 0.6
+Av in dB= 20log(0.6)=  4.436
+### AC Analysis
 
 ### INFERENCE:
 In this experiment, we seen the working principles of a differential amplifier and its types and configuration.
