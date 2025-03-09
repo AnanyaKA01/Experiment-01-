@@ -116,6 +116,10 @@ Av=1.721
 ### 4.Circuit-4
 Here we are replacing Rd with diode connected PMOS which acts as resistor .
 ### DC Analysis
+![Image](https://github.com/user-attachments/assets/abfebdce-7e48-40ba-8458-c93cf28b81c2)
+##### Fig 11:Output of DC Analysis
+
+### Transient Analysis
 
 ### INFERENCE:
 In this experiment, we seen the working principles of a differential amplifier and its types and configuration.
