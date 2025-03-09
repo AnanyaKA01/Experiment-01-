@@ -112,6 +112,11 @@ The value of (W/L) in MOSFET 3  =180/19.5u
 ##### Fig 10:Output of transient Ananlysis
 Voltage gain(Av) = vout/vin =1.76-1.65/1.69-1.60=1.222
 Av=1.721
+
+### 4.Circuit-4
+Here we are replacing Rd with diode connected PMOS which acts as resistor .
+### DC Analysis
+
 ### INFERENCE:
 In this experiment, we seen the working principles of a differential amplifier and its types and configuration.
 
