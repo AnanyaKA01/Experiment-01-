@@ -6,7 +6,7 @@ the currents through M1 and M2 will vary due to the gate voltages applied. Howev
 it is crucial that the MOSFETs M1 and M2 do not enter the Triode region. It must be ensured that both MOSFETs remain in the Saturation Region.
 
 ![Image](https://github.com/user-attachments/assets/83747046-5ec2-4568-b42a-1288e7ed3cdc)
-#####Fig 1 : Differential amplifier image
+##### Fig 1 : Differential amplifier image
 
 This Experiement is done in 3 stages.Where common source terminal is connected with
 
@@ -19,12 +19,12 @@ This Experiement is done in 3 stages.Where common source terminal is connected w
 For all this circuit we need find out the AC analysis ,Transient analysis And Frequency Response.
 ##### The given question specification is as follows
 P=2.5mA ,VDD=3.3V ,Vin=1.65V ,Vocm=1.7V ,Vp=0.5V
---Iss=Id1=Id2=2.5/3.3=0.75mA
--RD=VDD-Vocm/Iss= 3.3-1.7/0.37=4.32KΩ
--Rss=Vp/Iss=0.5/0.75=666.6Ω
--By tis value circuit is been built with respective to the values derived.
+- Iss=Id1=Id2=2.5/3.3=0.75mA
+- RD=VDD-Vocm/Iss= 3.3-1.7/0.37=4.32KΩ
+- Rss=Vp/Iss=0.5/0.75=666.6Ω
+- By this value circuit is been built with respective to the values derived.
 (Note:This value may change while getting the desired values in the saturation wise or some constant terms needs to set
-###1.Circuit 1 (Common Source terminal is connected to resistor):
+### 1.Circuit 1 (Common Source terminal is connected to resistor):
 
 In this circuit we have two MOSFET connected to same voltage input forming differential pair.
 And Load Resistor is coonected to the Drain terminal of MOSFET. Source terminal is connected resistor and another 
@@ -34,7 +34,7 @@ CIRCUIT:
 The resistor applied at the common source terminal leads to change in the voltage gain ,input impedence in the circuit and the lineraity.
 So the linearity increases and the impedence. As this is closed loop amplifier this leads to causes a feedbakback amplifier for all elements 
 connecting to the common source terminal.
-###DC analysis:
+### DC analysis:
 To do circit analysis first we need to check that the Both the MOSFET should be in the Saturation Region 
 which should satisfy this.
 VDS > VGS - Vth
@@ -46,11 +46,11 @@ In this experiment we can see a complete phase shift of 180 degree output to the
 As with respect to context of voltage gain, as the volatge gain is more leads to the smaller the bandwidth size.
 At the particular time output wave changes with respect input in the amplitude.
 ![Image](https://github.com/user-attachments/assets/33280dc6-ab1f-4715-ada1-52216e2da62d)
-#####Fig 3: Output of Transient analysis
+##### Fig 3: Output of Transient analysis
 Voltage Gain of this circuit is given by= Vout-Vin
 Av=1.77-1.63/1.69-1.600=1.5
 Therefore Higher the Higher resistor value reduces gain but increases bandwidth and more the transient response.
-###AC Analysis:
+### AC Analysis:
 Frequency response is determining quantity of bandwidth and stability of a MOSFET. This is divide into three regions;
 
 1.Low frequency
@@ -62,55 +62,55 @@ In this experiment we can observe that there is no low frequency region because 
 We can observe that mid band region upper value is nearear to the 3dB value which can used as
 parameter to check bandwidth of amplifier to maintain its gain.
 ![Image](https://github.com/user-attachments/assets/da279294-984e-427a-84b9-7ed640f96eae)
-#####Fig 4: Output of Ac Ananlysis
+##### Fig 4: Output of Ac Ananlysis
 Gain =20log(Av) =20log(1.5) =3.5dB
 
-###2.Circuit 2 (Common Source terminal is connected to current source):
+### 2.Circuit 2 (Common Source terminal is connected to current source):
 Same as the ciruit in the resistor circuit we need to replace resistor by current source .
 We have two MOSFET connected to same voltage input forming differential pair.And current source is connected to the Drain terminal of MOSFET.
 Source terminal is connected to the current source and another terminal is connected to ground.
 ![Image](https://github.com/user-attachments/assets/55eb1681-5ef1-450a-9c69-d401e7bf3a3f)
-#####Fig 5:Circuit diagram with current source
-###DC Analysis:
+##### Fig 5:Circuit diagram with current source
+### DC Analysis:
 We need set voltage of Vicm to maintain the desired value of the current and voltage at source point.As a result opertaing point will be given as.
 ![Image](https://github.com/user-attachments/assets/e3c7427e-0e84-4e5c-b7bc-20c216176c97)
-#####Fig 6: output od Dc Analysis
+##### Fig 6: output od Dc Analysis
 In the operating values we got the current flowing through the common source terminal is approximately what we had derived
 in intial stage of the experiment.
-###Transient Analysis:
+### Transient Analysis:
 The volatge gain of the ciruits inceases because of the current source drop across it is less compared to the 
 Rs resistor drop. So the Voltage gain of circuit is more compared to the circuit 1
 ![Image](https://github.com/user-attachments/assets/5b2a550a-018c-47d4-9b90-bb6c079bdff4)
-#####Fig 7:Output od transient analysis.
+##### Fig 7:Output od transient analysis.
 Voltage gain= vout/vin
 
           =(1.7056)/(1.62-1.50)
           =18.95
-###AC Analysis:
+### AC Analysis:
 ![Image](https://github.com/user-attachments/assets/4d01733d-d2e6-4d73-bb8d-8d1da2fe6c88)
 Gain in dB=20log(Av)
 =20log(18.95)
 =25.55
-###3. Circuit 3-(Connecting MOSFET to source terminal)
+### 3. Circuit 3-(Connecting MOSFET to source terminal)
 Now we are replacing the current source to the mosfet(M3) where we need to keep current Id3 as our desired value And to keep the mosfet(M1,M2,M3) in saturation region
 so that voltage gain will be maintained.In this ciruit MMOsfet is connected to drain of it to source terminal and to other ground.
 Now replace the current source with a Mosfet : Given vp=054v and wkt vt=0.36v we got the gate voltage of the new mosfet as 0.866v
 ![Image](https://github.com/user-attachments/assets/48fc0ecc-2e1d-40b4-8823-921cf3790929)
 ###DC Analysis:
 ![Image](https://github.com/user-attachments/assets/2695bc6d-8040-4cd7-b799-36e7ae531a80)
-####Fig 9:output of Dc Ananlysis
+#### Fig 9:output of Dc Ananlysis
 By identifying the value of VB of MOSFET M3 we need check the current flow through the MOSFET and It should be in saturation region.
 
 VB value (Gate terminal of MOSFET M3)=0.86v
 The value of (W/L) in MOSFET 1&2 =180n/6.2u
 The value of (W/L) in MOSFET 3  =180/19.5u
 
-###Transient Anlysis:
+### Transient Anlysis:
 ![Image](https://github.com/user-attachments/assets/7d5e2f17-cb81-41de-a043-883405140f38)
-#####Fig 10:Output of transient Ananlysis
+##### Fig 10:Output of transient Ananlysis
 Voltage gain(Av) = vout/vin =1.76-1.65/1.69-1.60=1.222
 Av=1.721
-###INFERENCE:
+### INFERENCE:
 In this experiment, we seen the working principles of a differential amplifier and its types and configuration.
 
 There are three types of configurations were implemented: resistor , current source , and an NMOS . All the implements work on different ways that results into the change in Voltage gain and stabillity of a mosfet.
