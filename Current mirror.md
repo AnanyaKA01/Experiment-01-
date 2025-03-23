@@ -20,9 +20,9 @@ By changing the W/L ratio of the two transistors, the current which is fraction 
 In a PMOS current mirror, the source terminals of both transistors are connected to the supply voltage Vdd. The relationship between ID1 and IREF remains the same as in other configurations. The key requirement is to ensure that both M2 and M3 operate in the saturation region. This can be expressed as the condition VSD1 ≥ VSG - |VTP|, where VTP represents the threshold voltage of the PMOS transistor.
 
 #### Simulation 
-
+#### 1) Current mirror circuit with 1:1 ratio
 Design a current mirror circuit which has a gain of AV = -10V/V, power supply of Vdd = 1.8V, and power of P <= 1mW. Find reference current (Iref), output current (Id), and total current (Itotal). Perform DC and AC analysis for mirror ratio 1:1, 1:2. Vary length from 180nm -> 500nm -> 1µm and do the analysis.
-- 1 with length as 180n
+1) with length as 180n
 ![image](https://github.com/user-attachments/assets/ec823f17-66d5-4b5b-8f5f-650cb814ca37)
 ##### Fig 4:Circuit Diagram
 Itotal = ( Power / Vdd )
@@ -47,6 +47,30 @@ Iref = Id = ( Itotal / 2 )
 ##### Fig 8: Output of AC Ananlysis
 AV=29.8364dB Frequency=10MHz
 Bandwidth = (29.836dB-3dB) = 26.836dB , Frequency=278.8126MHz
+##### 2) with length as 500nm
+#### DC Ananlysis
+![image](https://github.com/user-attachments/assets/f64a80a7-4786-4999-99bf-0b1218b2585f)
+##### Fig 9: Output of DC Analysis
+#### Transient Ananlysis
+![image](https://github.com/user-attachments/assets/f4d94e8a-9685-47f0-9b94-4c83b41d6f14)
+##### Fig 10:Output of Transient Analysis
+#### AC Analysis
+![image](https://github.com/user-attachments/assets/a8f4d2d8-6fa7-48b2-9d69-dd4a77baff54)
+##### Fig 11: Output of AC Ananlysis
+Av=38.8366dB Frequency=11.818MHz
+Bandwidth = (38.8366-3dB)=35.8366 , Frequency= 54.52644MHz
+##### 3) with length as 1u
+#### DC Ananlysis
+![image](https://github.com/user-attachments/assets/8d6ce3e9-8462-4a80-96f4-8f2121979018)
+##### Fig 12: Output of DC Analysis
+#### Transient Analysis
+![image](https://github.com/user-attachments/assets/65ac6a33-7123-40e3-aa45-97929cde7944)
+##### Fig 13: Output of Transient Analysis
+#### AC Analysis
+![image](https://github.com/user-attachments/assets/3e3006d5-1031-4fab-9a17-e5f24ec736a3)
+##### Fig 14: Output of AC Ananlysis
+Av=38.521746dB Frequency=10MHz
+Bandwidth=(38.521746-3dB) = 35.521746dB , Frequency=41.09976MHz
 
 
 
