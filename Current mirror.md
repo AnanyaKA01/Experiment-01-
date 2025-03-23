@@ -85,7 +85,19 @@ Bandwidth=(38.521746-3dB) = 35.521746dB , Frequency=41.09976MHz
 ##### Fig 17: Output of AC Analysis
 Av=29.781147dB Frequency=10MHz
 Bandwidth=(29.781147dB-3dB) = 26.781147 , Frrequency=268.26MHz
-
+##### 2) With length as 500nm
+#### DC Analysis
+![image](https://github.com/user-attachments/assets/b4314a22-119a-4881-8425-eafaaacff93b)
+##### Fig 18: Output of DC Analysis
+#### Transient Ananlysis
+![image](https://github.com/user-attachments/assets/3423b70f-38a4-4286-aabf-d5ba49ab598e)
+##### Fig 18: Output of Transient analysis
+#### AC Analysis
+![image](https://github.com/user-attachments/assets/78c753b5-1885-44ea-9d7d-9191075940b7)
+##### Fig 19:Output of AC Analysis
+Av=38.83132dB Frequency=11.97085MHz
+Bandwidth=(38.83132-3dB)=35.83132 , Frequency=53.830MHz
+##### 3) with length as 1u
 
 
 
