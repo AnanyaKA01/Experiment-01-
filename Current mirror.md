@@ -11,7 +11,7 @@ By changing the W/L ratio of the two transistors, the current which is fraction 
 ####Simulation
 
 ##### Fig 2:Example oriblem shown in class
-![Image](https://github.com/user-attachments/assets/6f115bf6-af01-4e42-8027-3de811c5a76f)
+![image](https://github.com/user-attachments/assets/df435a79-882b-428d-a4e3-36819b6412eb)
 - Observation table for Iref=100u
 
 ##### PMOS CURRENT MIRROR
@@ -71,6 +71,22 @@ Bandwidth = (38.8366-3dB)=35.8366 , Frequency= 54.52644MHz
 ##### Fig 14: Output of AC Ananlysis
 Av=38.521746dB Frequency=10MHz
 Bandwidth=(38.521746-3dB) = 35.521746dB , Frequency=41.09976MHz
+#### Current Mirror CIrcuit with 1:2 Ratio
+
+##### 1) With length as 180nnm
+#### DC Ananlysis
+![image](https://github.com/user-attachments/assets/1119a53c-488f-4885-97a6-f60ba8f896a6)
+##### Fig 15:Output of DC Analysis
+#### Transient Ananlysis
+![image](https://github.com/user-attachments/assets/a99562ab-7e0a-4fe0-8521-ed1228d7f348)
+##### Fig 16:Output of Tansient Ananlysis
+#### AC Ananlysis
+![image](https://github.com/user-attachments/assets/1748a3e7-09f7-422f-8c15-1166af4698dc)
+##### Fig 17: Output of AC Analysis
+Av=29.781147dB Frequency=10MHz
+Bandwidth=(29.781147dB-3dB) = 26.781147 , Frrequency=268.26MHz
+
+
 
 
 
