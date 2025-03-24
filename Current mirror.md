@@ -102,4 +102,22 @@ Bandwidth=(38.83132-3dB)=35.83132 , Frequency=53.830MHz
 
 
 
+#### PART B
+##### Design the differential amplifier using the same design specification as experiment 3(differential amplifier). Perform DC, Transient, AC analysis for the given circuit.
+##### Circuit Diagram
+![image](https://github.com/user-attachments/assets/34055db0-dd1a-4790-b42f-2cb62a55a53b)
+##### Fig :Circuit Diagram
+For this circuit biased voltage is replaced by current mirror circuit, with Vdd = 3.3V
+the current through the circuite should be 0.378mA, hence Iss should be of 0.757mA.
+#### DC Analysis
+
+##### Fig :Output of DC Ananlysis
+ the Vp and Vout values which is not exactly same as previous experiment, but nearer to that, this variation leads to change in gain of the circuit
+##### Transient Analysis
+
+
+
+
+
+
 
