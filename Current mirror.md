@@ -9,8 +9,8 @@ Id = ( (W/L)1 / (W/L)ref ) * Iref
 
 By changing the W/L ratio of the two transistors, the current which is fraction or multiple of the reference current can be generated. The only thing which needs to be ensured is that, the MOSFET should operate in the saturation region.
 ####Simulation
-
-##### Fig 2:Example oriblem shown in class
+![image](https://github.com/user-attachments/assets/be2bb082-3b21-4f6d-b203-a648e475ea05)
+##### Fig 2:Example porblem shown in class
 ![image](https://github.com/user-attachments/assets/df435a79-882b-428d-a4e3-36819b6412eb)
 - Observation table for Iref=100u
 
@@ -35,7 +35,7 @@ Iref = Id = ( Itotal / 2 )
 #### DC Ananlysis
 ![image](https://github.com/user-attachments/assets/66dbaded-8ed4-4f99-b83e-5dc9da33ad1b)
 ##### Fig 5: output of DC Ananlysis
-
+![image](https://github.com/user-attachments/assets/25e9f87b-52fe-4356-b6f9-2c4e26e5911e)
 ##### Fig 6 : Tabular column of the analysis
 
 #### Transient Analysis
@@ -59,6 +59,8 @@ Bandwidth = (29.836dB-3dB) = 26.836dB , Frequency=278.8126MHz
 ##### Fig 11: Output of AC Ananlysis
 Av=38.8366dB Frequency=11.818MHz
 Bandwidth = (38.8366-3dB)=35.8366 , Frequency= 54.52644MHz
+![image](https://github.com/user-attachments/assets/92b789de-8292-45cc-abe4-b399947dde6b)
+##### Ananlysis Table
 ##### 3) with length as 1u
 #### DC Ananlysis
 ![image](https://github.com/user-attachments/assets/8d6ce3e9-8462-4a80-96f4-8f2121979018)
@@ -71,6 +73,9 @@ Bandwidth = (38.8366-3dB)=35.8366 , Frequency= 54.52644MHz
 ##### Fig 14: Output of AC Ananlysis
 Av=38.521746dB Frequency=10MHz
 Bandwidth=(38.521746-3dB) = 35.521746dB , Frequency=41.09976MHz
+![image](https://github.com/user-attachments/assets/d5c45e2d-8b66-4a1a-b19b-d972e5efeb62)
+##### Analysis Table
+
 #### Current Mirror CIrcuit with 1:2 Ratio
 
 ##### 1) With length as 180nnm
@@ -85,6 +90,8 @@ Bandwidth=(38.521746-3dB) = 35.521746dB , Frequency=41.09976MHz
 ##### Fig 17: Output of AC Analysis
 Av=29.781147dB Frequency=10MHz
 Bandwidth=(29.781147dB-3dB) = 26.781147 , Frrequency=268.26MHz
+![image](https://github.com/user-attachments/assets/29781f58-cdc2-496d-8d65-4e687786f81c)
+##### Analysis Table
 ##### 2) With length as 500nm
 #### DC Analysis
 ![image](https://github.com/user-attachments/assets/b4314a22-119a-4881-8425-eafaaacff93b)
@@ -97,7 +104,18 @@ Bandwidth=(29.781147dB-3dB) = 26.781147 , Frrequency=268.26MHz
 ##### Fig 19:Output of AC Analysis
 Av=38.83132dB Frequency=11.97085MHz
 Bandwidth=(38.83132-3dB)=35.83132 , Frequency=53.830MHz
+![image](https://github.com/user-attachments/assets/e7c70a69-dc66-4875-8755-a2b522c646cf)
+##### Analysis Table
 ##### 3) with length as 1u
+#### DC Ananlysis
+
+##### Fig 20: Output of DCD Analysis
+#### Transient Analysis
+
+##### Fig 21: Output of Transient Analysis
+#### Ac Analysis
+
+##### Fig 22: Output of AC Ananlysis
 
 
 
@@ -119,8 +137,7 @@ the current through the circuite should be 0.378mA, hence Iss should be of 0.757
 #### AC Analysis
 ![image](https://github.com/user-attachments/assets/63e07c14-4cf3-4b08-8ac8-24ab4856877f)
 ##### Output of AC Analysis
-
-
+Av=29.55dB is the gain of the circuit, Although the current mirror ratios vary, the overall power dissipation stays within the 1mW design limit, confirming the circuit's low-power functionality.
 
 
 
