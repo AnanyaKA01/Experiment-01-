@@ -114,8 +114,11 @@ the current through the circuite should be 0.378mA, hence Iss should be of 0.757
 ##### Fig :Output of DC Ananlysis
  the Vp and Vout values which is not exactly same as previous experiment, but nearer to that, this variation leads to change in gain of the circuit
 ##### Transient Analysis
-
-
+![Image](https://github.com/user-attachments/assets/a0f30eb4-db54-4e19-8788-4ce31e6aa56a)
+##### output of Tansient Analysis
+#### AC Analysis
+![image](https://github.com/user-attachments/assets/63e07c14-4cf3-4b08-8ac8-24ab4856877f)
+##### Output of AC Analysis
 
 
 
