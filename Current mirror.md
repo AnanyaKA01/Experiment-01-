@@ -108,17 +108,17 @@ Bandwidth=(38.83132-3dB)=35.83132 , Frequency=53.830MHz
 ##### Analysis Table
 ##### 3) with length as 1u
 #### DC Ananlysis
-
+![image](https://github.com/user-attachments/assets/ae3d30b9-4fd5-46fd-93e3-946675362218)
 ##### Fig 20: Output of DCD Analysis
 #### Transient Analysis
-
+![image](https://github.com/user-attachments/assets/499f5454-61a9-4984-a691-9207b74aecb4)
 ##### Fig 21: Output of Transient Analysis
 #### Ac Analysis
-
+![image](https://github.com/user-attachments/assets/9edb6d93-75f4-46eb-89b5-560849231f5a)
 ##### Fig 22: Output of AC Ananlysis
-
-
-
+AV=40.56627 , Frequency=11.5181812
+(40.56627-3dB) = 37.57859 , 33.894867MHz
+There is a minute difference in Vx and Vout due to channel length modulation 
 
 #### PART B
 ##### Design the differential amplifier using the same design specification as experiment 3(differential amplifier). Perform DC, Transient, AC analysis for the given circuit.
@@ -128,7 +128,7 @@ Bandwidth=(38.83132-3dB)=35.83132 , Frequency=53.830MHz
 For this circuit biased voltage is replaced by current mirror circuit, with Vdd = 3.3V
 the current through the circuite should be 0.378mA, hence Iss should be of 0.757mA.
 #### DC Analysis
-
+![Image](https://github.com/user-attachments/assets/b17d9796-2c06-4b17-96c4-94133007b463)
 ##### Fig :Output of DC Ananlysis
  the Vp and Vout values which is not exactly same as previous experiment, but nearer to that, this variation leads to change in gain of the circuit
 ##### Transient Analysis
