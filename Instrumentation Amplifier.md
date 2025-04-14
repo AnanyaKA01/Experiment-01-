@@ -31,7 +31,7 @@ also offer low offset and low noise.
 - (47.48×10^-9)-(47.48×10^-9) / 0.5+0.5
 - = 9.496×10^-8.
 
-CMRR = Adm/Acm = 20V/V / 9.496×10^-8
+- CMRR = Adm/Acm = 20V/V / 9.496×10^-8
       = 210614 = 20log(210614) = 166.4697dB.
       
 #### 2) For Adm = 50V/V
@@ -48,7 +48,7 @@ CMRR = Adm/Acm = 20V/V / 9.496×10^-8
 ##### Fig 6: Analysis of Acm
 - (47.48×10^-9)-(47.48×10^-9) / 0.5+0.5
 - = 9.496×10^-8.
-CMRR = Adm/Acm = 50V/V / 9.496×10^-8
+- CMRR = Adm/Acm = 50V/V / 9.496×10^-8
 = 5265374 = 20log(5265374) = 174.4285dB.
 
 In order to take average of CMRR we are considering another 3 values for Adm and changing the value of RG Accordingly for realistic Performance assessment.
@@ -66,7 +66,7 @@ In order to take average of CMRR we are considering another 3 values for Adm and
 ##### Fig 8: Analysis of Acm
 - (47.48×10^-9)-(47.48×10^-9) / 0.5+0.5
 - = 9.496×10^-8.
-CMRR = Adm/Acm = 80V/V / 9.496×10^-8
+- CMRR = Adm/Acm = 80V/V / 9.496×10^-8
 = 8424599 = 20log(8424599) = 178.5109 dB.
 
 #### 4) For Adm = 120V/V
@@ -82,7 +82,7 @@ CMRR = Adm/Acm = 80V/V / 9.496×10^-8
 ##### Fig 10: Analysis of Acm
 - (47.48×10^-9)-(47.48×10^-9) / 0.5+0.5
 - = 9.496×10^-8.
-CMRR = Adm/Acm = 120V/V / 9.496×10^-8
+- CMRR = Adm/Acm = 120V/V / 9.496×10^-8
 = 12636899 =20log(12636899) = 182.032dB.
 
 #### 5) For Adm = 150V/V
@@ -97,5 +97,5 @@ CMRR = Adm/Acm = 120V/V / 9.496×10^-8
 ![image](https://github.com/user-attachments/assets/e7244ff9-e9e7-413e-a67f-bc5377d6fddb)
 - (47.48×10^-9)-(47.48×10^-9) / 0.5+0.5
 - = 9.496×10^-8.
-CMRR = Adm/Acm = 150V/V / 9.496×10^-8
+- CMRR = Adm/Acm = 150V/V / 9.496×10^-8
 = 1579612 = 20log(1579612) = 183.97dB.
