@@ -99,3 +99,29 @@ In order to take average of CMRR we are considering another 3 values for Adm and
 - = 9.496×10^-8.
 - CMRR = Adm/Acm = 150V/V / 9.496×10^-8
 = 1579612 = 20log(1579612) = 183.97dB.
+
+#### Comparision Table
+![image](https://github.com/user-attachments/assets/d246a0c7-0569-42c0-8211-c222d7a1f447)
+
+#### inference
+
+1) CMRR increases with increase in ADM
+– As ADM increases from 20 V/V to 150 V/V, the CMRR improves from 166.47 dB to 183.97 dB.
+– Reason: Higher differential gain enhances the rejection of common-mode signals more effectively.
+
+2) RG value is inversely proportional to ADM
+– As RG decreases (from 10.52 kΩ to 1.3423 kΩ), ADM increases.
+– Reason: Based on the gain formula, RG appears in the denominator,ADM = (R2 / R1) × [1 + 2 × (R5 / RG)] as follows with the equation, so reducing RG increases ADM, showing that fine tuning RG helps to control amplifier gain effectiively.
+
+3) ACM kept constant in all circuits
+– ACM is fixed at 9.496 × 10⁻⁸ V/V for all configurations.
+– Reason: Keeping ACM constant allows us to observe the effect of ADM on CMRR more clearly.
+
+4)  ADM values are approximated
+– The ADM values (20, 50, 80, 120, 150 V/V) are approximate rather than exact.
+– Reason: Standard values are used to simplify calculations and comparison. In simulation, small variations don’t significantly affect results, making approximation practical and efficient.
+
+5) Very high CMRR observed in all cases
+– All configurations yield CMRR above 160 dB.
+– Reason: Simulation ensures ideal resistor matching and zero non-idealities, resulting in excellent common-mode rejection.
+
