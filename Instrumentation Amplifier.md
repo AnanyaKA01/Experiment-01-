@@ -9,6 +9,11 @@ also offer low offset and low noise.
 
 ![image](https://github.com/user-attachments/assets/29e15ec6-9375-4526-b207-01c1cddb0da6)
 ##### Fig 1: Circuit Diagram of Instrumenatational Amplifier
+There are three main characteristics of this type of INA:
+• The gain can be set by one external resistor
+• The input stage is fitted with buffer amplifiers
+• The output stage is a traditional difference amplifier
+
 ### Question Given : Design an Instrumentation amplifier using 3 op-amp configuration with the following constraint
 ### a)R1=R2=R3=R4=R5=R6=100KΩ
 ### b) Difference gain Adm=20V/V - Find Acm and calculate CMRR for Adm=20V/V and 50V/V , Use LTspice Simulator.
