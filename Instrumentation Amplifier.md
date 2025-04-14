@@ -17,9 +17,9 @@ also offer low offset and low noise.
 #### 1) For Adm = 20V/V
 ![image](https://github.com/user-attachments/assets/0e66fd33-ee12-43fd-8da6-1904752859b5)
 ##### Fig 2: Circuit Diagram
-ADM = (R2 / R1) × [1 + 2 × (R5 / RG)]
-20 = (100k / 100k) × [1 + 2 × (100k / RG)]
-RG = 10.52KΩ
+- ADM = (R2 / R1) × [1 + 2 × (R5 / RG)]
+- 20 = (100k / 100k) × [1 + 2 × (100k / RG)]
+- RG = 10.52KΩ
 
 #### Transient Analysis for Adm
 ![image](https://github.com/user-attachments/assets/b67244ba-2e5d-4ec9-b21c-2724c495a357)
@@ -36,9 +36,9 @@ CMRR = Adm/Acm = 20V/V / 9.496×10^-8
       
 #### 2) For Adm = 50V/V
 
-ADM = (R2 / R1) × [1 + 2 × (R5 / RG)]
-50 = (100k / 100k) × [1 + 2 × (100k / RG)]
-RG = 4.081KΩ
+- ADM = (R2 / R1) × [1 + 2 × (R5 / RG)]
+- 50 = (100k / 100k) × [1 + 2 × (100k / RG)]
+- RG = 4.081KΩ
 #### Transient Ananlysis for Adm.
 ![image](https://github.com/user-attachments/assets/e2492aec-5502-468c-8def-f8d8ca841d4f)
 ##### Fig 5: Analysis of Adm
@@ -54,15 +54,15 @@ CMRR = Adm/Acm = 50V/V / 9.496×10^-8
 In order to take average of CMRR we are considering another 3 values for Adm and changing the value of RG Accordingly for realistic Performance assessment.
 
 #### 3) For Adm = 80V/V
-ADM = (R2 / R1) × [1 + 2 × (R5 / RG)]
-80 = (100k / 100k) × [1 + 2 × (100k / RG)]
-RG = 2.5316KΩ
+- ADM = (R2 / R1) × [1 + 2 × (R5 / RG)]
+- 80 = (100k / 100k) × [1 + 2 × (100k / RG)]
+- RG = 2.5316KΩ
 #### Transient Ananlysis for Adm.
-![image](https://github.com/user-attachments/assets/84bae75d-96f4-4451-8b89-8d46a6993d7c)
+![image](https://github.com/user-attachments/assets/473729aa-43d0-4280-8fd5-3e4a0b7c3f47)
 ##### Fig 7: Analysis of Adm
-11.99/2-1.85 = 79.9333 ≈ 80V/V.
+11.99/2-1.850 = 79.9333 ≈ 80V/V.
 #### Transient Ananlysis for Acm.
-![image](https://github.com/user-attachments/assets/52c7149b-8c9d-42ca-92ba-a5721301f883)
+![image](https://github.com/user-attachments/assets/4117ad48-c07d-4493-b4a8-d72fc5a93a35)
 ##### Fig 8: Analysis of Acm
 - (47.48×10^-9)-(47.48×10^-9) / 0.5+0.5
 - = 9.496×10^-8.
@@ -70,9 +70,9 @@ CMRR = Adm/Acm = 80V/V / 9.496×10^-8
 = 8424599 = 20log(8424599) = 178.5109 dB.
 
 #### 4) For Adm = 120V/V
-ADM = (R2 / R1) × [1 + 2 × (R5 / RG)]
-120 = (100k / 100k) × [1 + 2 × (100k / RG)]
-RG = 1.6807KΩ
+- ADM = (R2 / R1) × [1 + 2 × (R5 / RG)]
+- 120 = (100k / 100k) × [1 + 2 × (100k / RG)]
+- RG = 1.6807KΩ
 #### Transient Ananlysis for Adm.
 ![image](https://github.com/user-attachments/assets/af19f6e5-9639-46cf-8df3-5de16f28a070)
 ##### Fig 9: Analysis of Adm
@@ -86,7 +86,16 @@ CMRR = Adm/Acm = 120V/V / 9.496×10^-8
 = 12636899 =20log(12636899) = 182.032dB.
 
 #### 5) For Adm = 150V/V
-ADM = (R2 / R1) × [1 + 2 × (R5 / RG)]
-150 = (100k / 100k) × [1 + 2 × (100k / RG)]
-RG = 1.3423KΩ
+- ADM = (R2 / R1) × [1 + 2 × (R5 / RG)]
+- 150 = (100k / 100k) × [1 + 2 × (100k / RG)]
+- RG = 1.3423KΩ
 #### Transient Ananlysis for Adm.
+![image](https://github.com/user-attachments/assets/452b0d95-62a6-4be1-a3b9-a0b5116324f0)
+##### Fig 11: Analysis of Adm
+11.99/1-0.9200 = 149.875 ≈ 150V/V.
+#### Transient Ananlysis for Acm.
+![image](https://github.com/user-attachments/assets/e7244ff9-e9e7-413e-a67f-bc5377d6fddb)
+- (47.48×10^-9)-(47.48×10^-9) / 0.5+0.5
+- = 9.496×10^-8.
+CMRR = Adm/Acm = 150V/V / 9.496×10^-8
+= 1579612 = 20log(1579612) = 183.97dB.
