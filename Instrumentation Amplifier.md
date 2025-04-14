@@ -1,5 +1,5 @@
 ## Instrumentation Amplifier
-### What is an Instrumentational Amplifier?
+### What is an Instrumentation Amplifier?
 -  An instrumentation amplifier (INA) is a very special type of differential input
 amplifier; its primary focus is to provide differential gain and high common-mode
 rejection.
