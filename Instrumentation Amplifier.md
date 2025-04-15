@@ -1,4 +1,5 @@
 ## Instrumentation Amplifier
+------
 ### What is an Instrumentation Amplifier?
 -  An instrumentation amplifier (INA) is a very special type of differential input
 amplifier; its primary focus is to provide differential gain and high common-mode
@@ -13,7 +14,7 @@ There are three main characteristics of this type of INA:
 -  The gain can be set by one external resistor
 -  The input stage is fitted with buffer amplifiers
 -  The output stage is a traditional difference amplifier
-
+-----
 ### Question Given : Design an Instrumentation amplifier using 3 op-amp configuration with the following constraint
 ### a)R1=R2=R3=R4=R5=R6=100KΩ
 ### b) Difference gain Adm=20V/V - Find Acm and calculate CMRR for Adm=20V/V and 50V/V , Use LTspice Simulator.
@@ -25,7 +26,7 @@ There are three main characteristics of this type of INA:
 - ADM = (R2 / R1) × [1 + 2 × (R5 / RG)]
 - 20 = (100k / 100k) × [1 + 2 × (100k / RG)]
 - RG = 10.52KΩ
-
+------
 #### Transient Analysis for Adm
 ![image](https://github.com/user-attachments/assets/b67244ba-2e5d-4ec9-b21c-2724c495a357)
 ##### Fig 3: Ananlysis of Adm.
@@ -38,12 +39,13 @@ There are three main characteristics of this type of INA:
 
 - CMRR = Adm/Acm = 20V/V / 9.496×10^-8
       = 210614 = 20log(210614) = 166.4697dB.
-      
+---------      
 #### 2) For Adm = 50V/V
 
 - ADM = (R2 / R1) × [1 + 2 × (R5 / RG)]
 - 50 = (100k / 100k) × [1 + 2 × (100k / RG)]
 - RG = 4.081KΩ
+- ------------
 #### Transient Ananlysis for Adm.
 ![image](https://github.com/user-attachments/assets/e2492aec-5502-468c-8def-f8d8ca841d4f)
 ##### Fig 5: Analysis of Adm
@@ -55,9 +57,8 @@ There are three main characteristics of this type of INA:
 - = 9.496×10^-8.
 - CMRR = Adm/Acm = 50V/V / 9.496×10^-8
 = 5265374 = 20log(5265374) = 174.4285dB.
-
 In order to take average of CMRR we are considering another 3 values for Adm and changing the value of RG Accordingly for realistic Performance assessment.
-
+-------------
 #### 3) For Adm = 80V/V
 - ADM = (R2 / R1) × [1 + 2 × (R5 / RG)]
 - 80 = (100k / 100k) × [1 + 2 × (100k / RG)]
@@ -73,7 +74,7 @@ In order to take average of CMRR we are considering another 3 values for Adm and
 - = 9.496×10^-8.
 - CMRR = Adm/Acm = 80V/V / 9.496×10^-8
 = 8424599 = 20log(8424599) = 178.5109 dB.
-
+------------
 #### 4) For Adm = 120V/V
 - ADM = (R2 / R1) × [1 + 2 × (R5 / RG)]
 - 120 = (100k / 100k) × [1 + 2 × (100k / RG)]
@@ -89,7 +90,7 @@ In order to take average of CMRR we are considering another 3 values for Adm and
 - = 9.496×10^-8.
 - CMRR = Adm/Acm = 120V/V / 9.496×10^-8
 = 12636899 =20log(12636899) = 182.032dB.
-
+--------------
 #### 5) For Adm = 150V/V
 - ADM = (R2 / R1) × [1 + 2 × (R5 / RG)]
 - 150 = (100k / 100k) × [1 + 2 × (100k / RG)]
@@ -104,7 +105,7 @@ In order to take average of CMRR we are considering another 3 values for Adm and
 - = 9.496×10^-8.
 - CMRR = Adm/Acm = 150V/V / 9.496×10^-8
 = 1579612 = 20log(1579612) = 183.97dB.
-
+-----------
 #### Comparision Table
 ![image](https://github.com/user-attachments/assets/d246a0c7-0569-42c0-8211-c222d7a1f447)
 
