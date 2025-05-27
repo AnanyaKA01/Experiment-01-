@@ -44,8 +44,8 @@ The bandwidth is influenced by the transconductance (gm) and load capacitance, w
 ---
 
 ## 5. Circuit Diagram
+![image](https://github.com/user-attachments/assets/0f6497ee-d046-4fde-ada6-e456ecc74e96)
 
-*(Insert Circuit Diagram Here in Repository)*
 
 ---
 
@@ -56,6 +56,9 @@ A telescopic operational transconductance amplifier (OTA) is a high-gain analog 
 ---
 
 ## 7. Simulation Results and Analysis
+![image](https://github.com/user-attachments/assets/f8917563-8a01-418e-a8fa-216e6d11002e)
+![image](https://github.com/user-attachments/assets/e2ef0cd3-ac49-449c-a85b-04dbd11423c8)
+
 
 All the MOSFETs are in saturation region.
 
@@ -76,21 +79,30 @@ All the MOSFETs are in saturation region.
 | M10         | 180         | 2.0         |
 
 ### Transient Analysis
+![image](https://github.com/user-attachments/assets/c2574dc9-7307-4093-83a9-b3cafd662af1)
 
 - Vout max = 1.92V  
 - Vout min = 1.48V  
 
 ### AC Analysis
+![image](https://github.com/user-attachments/assets/0e34ef47-9ec1-4961-8ebe-9b48733722b8)
 
 - Gain (Av) = 65.505 dB  
 
+In the Telescopic OTA design, a high voltage gain was achieved due to the increased output resistance from cascoded transistors. However, this came at the cost of high output swing which is greater than VDD. The stacked transistors reduce voltage headroom, and maintaining all devices in saturation restricts how far the output can vary. Reducing gain—by adjusting biasing or cascode depth—allows a wider output swing, but at the expense of amplification. This highlights the inherent trade-off in telescopic OTAs between gain and output swing, requiring careful optimization based on design goals.
 **Updated Results:**
+![image](https://github.com/user-attachments/assets/7881edc9-6abd-41b6-b095-cfd9556c034c)
 
 - Vout max = 1.28V  
-- Vout min = 1.20V  
+- Vout min = 1.20V
+
+### AC Analysis(updated)
+   ![image](https://github.com/user-attachments/assets/912c2169-4825-4bd1-8f37-c9738d377f43)
+
 - Gain (Av) = 59.816 dB ≈ 60 dB  
 
 ### Common Mode Analysis
+![image](https://github.com/user-attachments/assets/f173b0f1-0c5a-4918-b042-74f8cf0338a0)
 
 - CMRR = ADM - ACM = 60 - (-25) = **85 dB**
 
