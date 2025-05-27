@@ -14,3 +14,4 @@ To maintain transistor operation in the saturation region, a high-swing design i
 
 #### 4.Technical Specifications
      The OTA is designed using TSMC 180nm CMOS technology,	with key specifications outlined in Table. 
+![Image](https://github.com/user-attachments/assets/f6a92495-5628-4871-b46e-0efbfbe410e0)
